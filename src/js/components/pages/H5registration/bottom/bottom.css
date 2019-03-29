@@ -1,0 +1,17 @@
+.bj{
+    position: relative;
+    top: 388px;
+    width: 100%;
+    height:400px;
+}
+.btn{
+    height: 86px;
+    width: 90%;
+    left: 5%;
+    background:#79C784 ;
+    position: relative;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 86px;
+}

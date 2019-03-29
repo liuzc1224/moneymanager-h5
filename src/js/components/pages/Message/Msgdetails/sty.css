@@ -1,0 +1,23 @@
+.main{
+    width: 92%;
+    left: 4%;
+    position: relative;
+    top: 45px;
+}
+.title{
+    color: #585858;
+    font-size: 32px;
+    line-height: 44px;
+}
+.time{
+    padding-top: 10px;
+    color: #CCCCCC;
+    font-size: 24px;
+    line-height: 44px;
+}
+.center{
+    padding-top: 20px;
+    color: #AAAAAA;
+    font-size: 28px;
+    line-height: 36px;
+}

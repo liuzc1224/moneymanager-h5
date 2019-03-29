@@ -1,0 +1,137 @@
+.checkboxWrap{
+    margin-top: 60px;
+}
+.rightTxt{
+    display: inline-block;
+    padding-left: 38px;
+    font-size: 24px;
+    color: #1D1D26;
+}
+.linkColor{
+    padding-left: 10px;
+    color: #61A4EF;
+    text-decoration: underline;
+}
+.ant-checkbox {
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    vertical-align: text-bottom;
+}
+
+.ant-checkbox-inner {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #FC7558;
+    border-radius: 7px;
+    background-color: #fff;
+    transition: all .3s;
+}
+
+.ant-checkbox-inner:after {
+    transform: rotate(45deg) scale(0);
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    display: table;
+    width: 5px;
+    height: 8px;
+    border: 2px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    content: ' ';
+    transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6);
+}
+
+.ant-checkbox-input {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ant-checkbox-indeterminate .ant-checkbox-inner:after {
+    content: ' ';
+    transform: scale(1);
+    position: absolute;
+    left: 2px;
+    top: 5px;
+    width: 8px;
+    height: 1px;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner:after {
+    transform: rotate(45deg) scale(1);
+    position: absolute;
+    left: 8px;
+    top: 1px;
+    display: table;
+    width: 18px;
+    height: 26px;
+    border: 2px solid #FC7558;
+    border-top: 0;
+    border-left: 0;
+    content: ' ';
+    transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner,
+.ant-checkbox-indeterminate .ant-checkbox-inner {
+    background-color: #ffffff;
+    border-color: #FC7558;
+}
+
+.ant-checkbox-disabled.ant-checkbox-checked .ant-checkbox-inner:after {
+    animation-name: none;
+    border-color: rgba(0, 0, 0, 0.25);
+}
+
+.ant-checkbox-disabled .ant-checkbox-inner {
+    border-color: #d9d9d9 !important;
+    background-color: #f3f3f3;
+}
+
+.ant-checkbox-disabled .ant-checkbox-inner:after {
+    animation-name: none;
+    border-color: #f3f3f3;
+}
+
+.ant-checkbox-disabled+span {
+    color: rgba(0, 0, 0, 0.25);
+    cursor: not-allowed;
+}
+
+.ant-checkbox-wrapper {
+    cursor: pointer;
+    font-size: 12px;
+    display: inline-block;
+}
+
+
+.ant-checkbox-wrapper+span,
+.ant-checkbox+span {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.ant-checkbox-group {
+    font-size: 12px;
+}
+
+.ant-checkbox-group-item {
+    display: inline-block;
+}

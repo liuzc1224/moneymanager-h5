@@ -1,0 +1,16 @@
+.BTN{
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    border-radius: 40px;
+}
+.BTN>button{
+    width: 90%;
+    height: 90px;
+    background-color: #79C784;
+    font-size: 30px;
+    border: none;
+    line-height: 90px;
+    color: #ffffff;
+    border-radius: 40px;
+}

@@ -1,0 +1,28 @@
+.wrapper{
+	background: #fff;
+	overflow: hidden;
+	padding: 50px 30px;
+	position: relative;
+}
+.title{
+	font-size: 28px;
+	width: 100%;
+	height: 56px;
+	line-height: 56px;
+	margin: 0 0 30px;
+	color: #666;
+}
+.rule{
+	font-size: 30px;
+	line-height: 42px;
+	color: #666;
+}
+.download{
+	background: url(../../../../../img/download.png) no-repeat center;
+	background-size: contain;
+	width: 340px;
+	height: 70px;
+	position: absolute;
+	right: 23px;
+	top: 38px;
+}

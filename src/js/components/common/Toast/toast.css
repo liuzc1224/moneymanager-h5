@@ -1,0 +1,24 @@
+
+.toast-container{
+    position: fixed;
+    left: 0;
+    top:20px;
+    width:100%;
+    z-index: 1000;
+    text-align: center;
+    pointer-events: none;
+}
+.toast-msg {
+    margin:10px auto 0 auto;
+    width:70%;
+    padding:8px 10px;
+    background-color: rgba(0,0,0,0.65);
+    color: #eee;
+    border-radius:5px;
+    box-shadow: 2px 2px 3px #333;
+    word-break: break-all;
+}
+.toast-msg-wrap {
+    margin-top:3px;
+    text-align: center;
+}

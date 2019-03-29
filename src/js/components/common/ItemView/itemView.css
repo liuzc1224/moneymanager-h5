@@ -1,0 +1,31 @@
+.outWrap{
+    overflow: hidden;
+    background: #fff;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #aaa;
+    height: 90px;
+    /* border-top: 1px solid #e0e0e0; */
+    border-bottom: 1px solid #e0e0e0;
+    padding-right: 30px;
+    position: relative;
+}
+.rightTxt{
+    color: #585858;
+}
+.leftPadding{
+    padding-left: 30px;
+}
+.cut::after{
+    content: "";
+    width: 16px;
+    height: 30px;
+    position: absolute;
+    background: url("./images/cut.png") no-repeat center;
+    background-size: contain;
+    top: 29px;
+    right: 30px;
+}

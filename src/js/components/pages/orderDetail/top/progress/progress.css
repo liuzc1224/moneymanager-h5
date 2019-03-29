@@ -1,0 +1,24 @@
+.progressWrap{
+    display: flex;
+    color: #aaa;
+    justify-content: space-between;
+    font-size: 28px;
+    width: 40%;
+}
+.progressOut{
+    width: 180px;
+    height: 26px;
+    border: 2px solid rgba(170,170,170,1);
+    border-radius:13px;
+    margin-top: 23px;
+    position: relative;
+    overflow: hidden;
+    padding: 3px;
+    margin-right: 25px;
+}
+.progressInner{
+    height: 16px;
+    background: #79C784;
+    border-radius:8px;
+    display: block;
+}

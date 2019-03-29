@@ -1,0 +1,106 @@
+//征信查询首页模块1
+const group1 = [
+    {
+        id:"CREDIT_RECORD_GROUP1_NO",
+        description:"序号",
+        defaultMessage:"",
+        rightTxt:"xh",
+        showLeftLen:true,
+    },
+    {
+        id:"CREDIT_RECORD_GROUP1_TYPE",
+        description:"违约类型",
+        defaultMessage:"",
+        rightTxt:"breakContractType",
+    },
+    {
+        id:"CREDIT_RECORD_GROUP1_TIME",
+        description:"违约时间",
+        defaultMessage:"",
+        rightTxt:"breakContractDateStr",
+    },
+    {
+        id:"CREDIT_RECORD_GROUP1_PLATFORM",
+        description:"违约平台",
+        defaultMessage:"",
+        rightTxt:"breakContractPlatform",
+    },
+    {
+        id:"CREDIT_RECORD_GROUP1_MONEY",
+        description:"违约金额",
+        defaultMessage:"",
+        rightTxt:"breakContractAmountStr",
+        showLeftLen:true,
+    }
+]
+//征信查询首页模块2
+const group2 = [
+    {
+        id:"CREDIT_RECORD_GROUP1_NO",
+        description:"序号",
+        defaultMessage:"",
+        rightTxt:"xh",
+        showLeftLen:true,
+    },
+    {
+        id:"CREDIT_RECORD_GROUP2_XING",
+        description:"授信额度",
+        defaultMessage:"",
+        rightTxt:"valor",
+    },
+    {
+        id:"CREDIT_RECORD_GROUP2_MOUTH",
+        description:"到期月份",
+        defaultMessage:"",
+        rightTxt:"09/09/2018",
+    },
+    {
+        id:"CREDIT_RECORD_GROUP2_YEAR",
+        description:"到期年份",
+        defaultMessage:"",
+        rightTxt:"anoVencimento",
+    }
+]
+
+//征信查询首页模块3
+const group3 = [
+    {
+        id:"CREDIT_RECORD_GROUP1_NO",
+        description:"序号",
+        defaultMessage:"",
+        rightTxt:"xh",
+        showLeftLen:true,
+    },
+    {
+        id:"CREDIT_RECORD_GROUP3_CREATTIME",
+        description:"创建日期",
+        defaultMessage:"",
+        rightTxt:"dataDocumento",
+    },
+    {
+        id:"CREDIT_RECORD_GROUP3_NUMBER",
+        description:"执行编号",
+        defaultMessage:"",
+        rightTxt:"numeroProcesso",
+    },
+    {
+        id:"CREDIT_RECORD_GROUP3_MONEY",
+        description:"涉及金额",
+        defaultMessage:"",
+        rightTxt:"valor",
+    },
+    {
+        id:"CREDIT_RECORD_GROUP3_NAME",
+        description:"法庭名称",
+        defaultMessage:"",
+        rightTxt:"nome",
+        showLeftLen:true,
+    }
+]
+
+
+export {
+    group1,
+    group2,
+    group3
+}

@@ -1,0 +1,68 @@
+.wrap{
+    padding: 0 50px 116px;
+}
+.title{
+    font-size: 30px;
+    line-height: 30px;
+}
+.inp{
+    width: 100%;
+    height: 94px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    margin: 29px 0 26px;
+    position: relative;
+}
+.inp span{
+    width: 17%;
+    height: 68px;
+    float: left;
+    border-bottom:1px solid #aaa;
+    margin: 0 4%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 90px;
+}
+.inp input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: transparent;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.inp i{
+    position: absolute;
+    top: 20%;
+    right: 22%;
+    font-size: 42px;
+    color: #aaa;
+    font-weight: normal;
+}
+.errmsg{
+    color: #FC7558;
+    line-height: 30px;
+    padding-bottom: 144px;
+}
+
+.seach{
+    width:619px;
+    height:90px;
+    background:rgba(252,117,88,1);
+    border-radius:45px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 90px;
+    margin-bottom: 31px;
+    margin-top: 41px;
+    outline: none;
+}
+
+.btnTip{
+    width: 385px;
+    text-align: center;
+    margin: 0 auto;
+}

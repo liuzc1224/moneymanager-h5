@@ -1,0 +1,29 @@
+.box{
+    width: 100%;
+    height: 330px;
+    background: #fff;
+    overflow: hidden;
+    position: fixed;
+    bottom: -330px;
+    left: 0;
+    transition: bottom .5s;
+    z-index: 10;
+    color: #585858;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box p{
+    width:520px;
+    height:90px;
+    background:rgba(252,117,88,1);
+    border-radius:45px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 30px;
+    color: #fff;
+}
+.box p:first-child{
+    margin-bottom: 40px;
+}

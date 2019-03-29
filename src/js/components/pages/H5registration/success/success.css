@@ -1,0 +1,18 @@
+.main{
+    text-align: center;
+    position: relative;
+    padding-top:142px;
+    height: 155px;
+    background: #ffffff;
+}
+.main>img{
+    height: 155px;
+    width: 200px;
+}
+.main>p{
+    background: #ffffff;
+    position: relative;
+    font-size: 30px;
+    line-height: 50px;
+    top:64px;
+}

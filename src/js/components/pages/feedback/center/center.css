@@ -1,0 +1,18 @@
+.textarea{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 20px;
+    padding: 10px;
+    border: #EAEAEA 1px solid;
+    border-radius: 20px;
+    font-size: 30px;
+    line-height: 44px;
+    height: 500px;
+    resize:none;
+    background-color: #ffffff;
+}
+.textarea:focus{
+    outline: none;
+    border: #FC7558 1px solid;
+    border-radius: 20px;
+}

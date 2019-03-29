@@ -1,0 +1,99 @@
+.IMG1{
+    width: 214px;
+    position: relative;
+    top: 53px;
+    left: 72px;
+}
+.imgLeft1{
+    position: relative;
+    width: 16px;
+    left: 90px;
+    top:-110px;
+}
+.text1{
+    position: relative;
+    width: 300px;
+    top: -340px;
+    left: 350px;
+    font-size: 30px;
+    line-height: 37px;
+    color: #666666;
+}
+.IMG2{
+    width: 214px;
+    position: relative;
+    right: 72px;
+    float: right;
+    top: -180px;
+}
+.imgRight1{
+    position: relative;
+    width: 16px;
+    float: right;
+    right: 100px;
+    top: -40px;
+}
+.text2{
+    position: relative;
+    width: 300px;
+    font-size: 30px;
+    line-height: 37px;
+    color: #666666;
+    float: right;
+    right: 120px;
+    top: -50px;
+}
+.IMG3{
+    width: 214px;
+    position: relative;
+    left: 72px;
+}
+.imgLeft2{
+    position: relative;
+    width: 16px;
+    left: 90px;
+    top:-40px;
+}
+.text3{
+    position: relative;
+    width: 300px;
+    font-size: 30px;
+    line-height: 37px;
+    color: #666666;
+    top: -270px;
+    left: 350px;
+}
+.bottom{
+    width: 84%;
+    left: 8%;
+    position: relative;
+    top:-80px;
+}
+.IMG4{
+    width: 250px;
+}
+.bottom>button{
+    top:-1px;
+    width: 300px;
+    height: 70px;
+    background-color: #FC7558;
+    color: white;
+    position: relative;
+    float: right;
+    border-radius: 40px;
+    border: none;
+}
+.IMG5{
+    width: 37px;
+    height: 37px;
+}
+.bottom>button>p{
+    font-size: 30px;
+    line-height: 20px;
+}
+.bottom>button>p>span{
+    padding-left: 15px;
+}
+.bottom a{
+    color: #ffffff;
+}

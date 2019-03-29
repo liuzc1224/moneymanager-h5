@@ -1,0 +1,26 @@
+.wrap{
+    padding: 0 44px 41px;
+    overflow: hidden;
+    position: relative;
+}
+
+.checkbg{
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: left;
+    background: url(./images//defult.png) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+.checkbgactive{
+    background: url(./images//active.png) no-repeat center;
+    background-size: contain;
+}
+
+.txt{
+    float: left;
+    position: absolute;
+}

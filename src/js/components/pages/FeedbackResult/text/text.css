@@ -1,0 +1,10 @@
+.TEXT{
+    width: 90%;
+    position: relative;
+    margin: 72px auto;
+    color: #585858;
+}
+.TEXT>p{
+    font-size: 30px;
+    line-height: 42px;
+}

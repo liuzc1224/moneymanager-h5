@@ -1,0 +1,22 @@
+.tab_title{
+    list-style: none;
+    text-align: center;
+    color:#AAAAAA;
+    border-bottom: 1px #E0E0E0 solid;
+    height: 80px;
+    background: #ffffff;
+}
+.tab_title > p{
+    float: left;
+    margin-left: 40px;
+    position: relative;
+    font-size: 30px;
+    line-height: 80px;
+    height: 80px;
+    box-sizing:border-box;
+}
+.active{
+    margin-bottom: -3px;
+    color: #FC7558;
+    border-bottom: 3px solid #FC7558;
+}

@@ -1,0 +1,50 @@
+
+
+.wrap{
+    background: #fff;
+    overflow: hidden;
+    padding: 30px 30px;
+    border-bottom:1px solid #E0E0E0;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.list span{
+    font-size: 30px;
+    color: #aaa;
+    text-align: right;
+}
+.list span:nth-child(1){
+    color: #585858;
+    text-align: center;
+}
+.btn{
+    width: 660px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 45px;
+    margin: 0 auto;
+    background: #e0e0e0;
+
+}
+.botTip{
+    text-align: center;
+    color: #AAAAAA;
+    margin-top: 59px;
+    font-size: 24px;
+}
+.title{
+    text-align: center;
+    color: #585858;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+}

@@ -1,0 +1,16 @@
+.IMG{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.IMG>img{
+    margin-top: 80px;
+    width: 160px;
+}
+.IMG>p{
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 44px;
+    color: #585858;
+}

@@ -1,0 +1,84 @@
+//征信查询首页模块1
+const creditIndexGroup1 = [
+    {
+        id:"CREDIT_PAGEINDEX_BANDINFO_CPF",
+        description:"绑定手机号",
+        defaultMessage:"",
+        rightTxt:"phoneNumber"
+    },
+    {
+        id:"CREDIT_PAGEINDEX_BANDINFO_PREVTIME",
+        description:"上次查询时间",
+        defaultMessage:"",
+        rightTxt:"maxTimeStr"
+    },
+    {
+        id:"CREDIT_PAGEINDEX_BANDINFO_NEXTTIME",
+        description:"下次查询时间",
+        defaultMessage:"",
+        rightTxt:"nextQueryDateStr"
+    }
+]
+//征信查询首页模块2
+const creditIndexGroup2 = [
+    {
+        id:"CREDIT_PAGEINDEX_GROUP2_NAME",
+        description:"name",
+        defaultMessage:"",
+        rightTxt:"spcUserName",
+    },
+    {
+        id:"CREDIT_PAGEINDEX_GROUP2_CPFNUM",
+        description:"cpf",
+        defaultMessage:"",
+        rightTxt:"cpf",
+    },
+    {
+        id:"CREDIT_PAGEINDEX_GROUP2_LV",
+        description:"信用等级",
+        defaultMessage:"",
+        rightTxt:"creditLevel",
+    },
+    {
+        id:"CREDIT_PAGEINDEX_GROUP2_SCORE",
+        description:"信用评分",
+        defaultMessage:"",
+        rightTxt:"creditScore",
+        showLeftLen:true
+    }
+]
+
+//征信查询首页模块3
+const creditIndexGroup3 = [
+    {
+        id:"CREDIT_PAGEINDEX_GROUP3_RECORD",
+        description:"违约",
+        defaultMessage:"",
+        showRightCut:'breakContractRecordVOList',
+        rightTxt:"Nada",
+        url:"/defaultRecord/1",
+    },
+    {
+        id:"CREDIT_PAGEINDEX_GROUP3_AMOUNT",
+        description:"征信",
+        defaultMessage:"",
+        showRightCut:'creditoConcedidoVOList',
+        rightTxt:"Nada",
+        url:"/defaultRecord/2",
+    },
+    {
+        id:"CREDIT_PAGEINDEX_GROUP3_LEGAL",
+        description:"法庭",
+        defaultMessage:"",
+        showRightCut:'judiciarioVOList',
+        rightTxt:"Nada",
+        url:"/defaultRecord/3",
+    }
+]
+
+
+export {
+    creditIndexGroup1,
+    creditIndexGroup2,
+    creditIndexGroup3
+}
